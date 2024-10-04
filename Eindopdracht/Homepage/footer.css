@@ -1,0 +1,30 @@
+
+footer{
+    background-color: rgb(3, 3, 14);
+    color: white;
+    display: flex;
+}
+
+footer img{
+    width: 6vw;
+}
+
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1vw;
+}
+
+.Copyright{
+    flex-grow: 1;
+}
+
+.overiginfo{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    gap: 30px;
+    align-items: center;
+}

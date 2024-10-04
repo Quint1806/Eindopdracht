@@ -1,0 +1,42 @@
+nav{
+display: flex;
+padding: 1vw;
+justify-content: end;
+gap: 1vw;
+border-bottom: 3px solid black;
+border-width: 10px;
+margin: -8px;
+background-color: rgb(16, 16, 94);
+align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+    border-radius: 6%;
+    padding: 10px;
+    
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+nav a:hover{
+    background-color: rgb(83, 148, 179);
+    padding: 10px;
+    border-radius: 6%;
+}
+.links :hover{
+    transform: scale(1.1);
+}
+
+nav img{
+    width: 5vw;
+}
+
+.space{
+    flex:1
+}

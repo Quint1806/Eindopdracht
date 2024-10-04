@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Loginpage/nav.css">
+    <link rel="stylesheet" href="Loginpage/header.css">
+    <link rel="stylesheet" href="Loginpage/inlog.css">
+    <link rel="stylesheet" href="Loginpage/footer.css">
+    <title>Inlogpagina</title>
+</head>
+<main>
+    <nav>
+        <div><img src="images/logo-removebg-preview.png" alt="logo"></div>
+        <div class="space"></div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="index.html">Producten</a>
+            <a href="login.html">Contact</a>
+            <a href="#Registreren">Registreren</a></div>
+    </nav>
+    <header>
+        <div>
+            <h1>Contact</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nam animi velit sint quisquam rerum dicta debitis quidem ducimus! Excepturi animi at cupiditate quas est repellendus quaerat in quae molestias.</p>
+        </div>
+    </header>
+
+    <section id="Registreren">
+        <div><h2>Registreren</h2></div>
+        <div class="Gegevens"><form action="login.html">
+            <div class="naam">
+            <label for="first-name">Voornaam</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Voornaam" required>
+            <label for="second-name">Achternaam</label>
+            <input type="text" name="second-name" id="second-name" placeholder="Achternaam" required>
+            </div>
+            
+            <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="naam@gmail.com" required>
+            </div>
+            
+            <div>
+            <label for="Adres">Woonplaats</label>
+            <input type="text" name="Adres" id="Adres" placeholder="Woonplaats" required>
+            <label for="Birthdate">Geboortedatum</label>
+            <input type="date" id="Birthdate" name="Birthdate" required>
+            </div>
+            
+            <div>
+                <input type="radio" id="Ja" name="nieuwsbrief" value="Ja">
+                <label for="Ja">Ja, ik wil de nieuwsbrief ontvangen.</label>
+                
+                <input type="radio" id="Nee" name="nieuwsbrief" value="Nee">
+                <label for="Nee">Nee, ik wil niet de nieuwsbrief ontvangen.</label>
+            </div>
+            <div>
+                <input type="checkbox" id="voorwaarden" name="voorwaarden" value="voorwaarden" required>
+                <label for="voorwaarden">Ik ga akkoord met de algemene voorwaarden</label>
+            </div>
+            <button type="submit">Registreren</button>
+
+        </form></div>
+    </section>
+    
+    <footer>
+        <div class="socials">
+            <img src="images/logo-removebg-preview.png" alt="logo"> 
+            <div class="Copyright"><p>Copyright 2024 Laptoppers</p> <img src="images/socials.png" alt="socials">
+            </div> </div>
+            <div class="overiginfo">
+                <p>Privacyverklaring</p><p>Algemene voorwaarden</p><p>Cookiebeleid</p><p>Contact</p>
+            </div>
+         
+        </footer>
+</main>
+</html>
